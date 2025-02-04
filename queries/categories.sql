@@ -1,0 +1,1 @@
+select category from needful_things.orders group by 1
