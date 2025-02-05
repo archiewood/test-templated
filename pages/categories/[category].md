@@ -4,7 +4,7 @@ sidebar: hide
 ---
 <LastRefreshed/>
 
-# {params.category}
+# {params.category} Orders
 
 ```sql inventory_filtered
 select * from orders

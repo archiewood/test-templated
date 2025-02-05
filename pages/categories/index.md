@@ -12,4 +12,16 @@ select *, '/categories/' || category as link
 from ${categories}
 ```
 
-<DataTable data={categories_with_link} link=link/>
+
+<Tabs>
+    <Tab label="Category 1">
+
+        <Details title="Data Table">
+
+            <DataTable data={categories_with_link} link=link search=true rowShading=true emptySet=pass align=center wrapTitles=true compact=true showLinkCol=false totalRow=true>
+                <Column id=category />
+            </DataTable>
+
+        </Details>
+    </Tab>
+</Tabs>
