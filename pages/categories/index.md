@@ -25,3 +25,8 @@ from ${categories}
         </Details>
     </Tab>
 </Tabs>
+
+
+{#each categories_with_link as row}
+<a href={row.link}></a>
+{/each}
